@@ -1,0 +1,15 @@
+#第一题
+itemList = [
+	{"Name":"小A","Gender":"男","Age":18,"Department":"信息学院","chinese":40,"mathematics":80,"English":74},
+	{"Name":"小B","Gender":"女","Age":19,"Department":"会计学院","chinese":75,"mathematics":86,"English":78},
+	{"Name":"小C","Gender":"男","Age":18,"Department":"建筑学院","chinese":98,"mathematics":56,"English":91},
+	{"Name":"小D","Gender":"女","Age":20,"Department":"康养学院","chinese":55,"mathematics":77,"English":90},
+	{"Name":"小E","Gender":"男","Age":18,"Department":"会计学院","chinese":65,"mathematics":44,"English":32},
+	{"Name":"小F","Gender":"男","Age":19,"Department":"信息学院","chinese":45,"mathematics":55,"English":25},
+];
+print("-------------------学生成绩信息--------------------");
+for i in range(0,len(itemList)):
+	print("姓名:%s  性别:%s  年龄:%d  院系:%s  语文:%d  数学:%d  英语:%d"% (itemList[i]["Name"],itemList[i]["Gender"],
+	itemList[i]["Age"],itemList[i]["Department"],itemList[i]["chinese"],
+	itemList[i]["mathematics"],itemList[i]["English"]));
+print("----------------------------------------------------");
